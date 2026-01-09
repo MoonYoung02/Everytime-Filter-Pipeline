@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 환경변수 / 시크릿
+.env
+
+# Everytime 로그인 세션 (개인 계정 정보)
+everytime_state.json
+
+# Crawling outputs
+*.jsonl
+*.json
+
+# llm cache
+--llm
